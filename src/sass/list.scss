@@ -1,0 +1,345 @@
+/* 商城样式 */
+#main {
+    .top_con {
+        width: 100%;
+        border-bottom: 3px solid #ff4065;
+
+        .top_wrap {
+            width: 1690px;
+            margin: 0 auto;
+            height: 40px;
+
+            .top_wrap_left {
+                width: 305px;
+                height: 40px;
+                background: #ff4065;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+
+                a {
+                    display: block;
+                    width: 305px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    color: #ffffff;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .banner_con {
+        width: 100%;
+        height: 440px;
+        background: #f1c8d0;
+        margin-bottom: 10px;
+
+        .banner_wrap {
+            width: 1690px;
+            margin: 0 auto;
+
+            .banner_nav {
+                width: 305px;
+                height: 440px;
+                background-color: rgba(255, 255, 255, 0.8);
+                float: left;
+
+                ul {
+                    width: 100%;
+                    min-height: 100px;
+
+                    li {
+                        width: 100%;
+                        height: 30px;
+
+                        dl {
+                            margin: 0;
+                            padding: 5px 0 5px 18px;
+                            vertical-align: top;
+                            overflow: hidden;
+                            border-left: 2px solid transparent;
+
+                            dt {
+                                a {
+                                    margin: 0;
+                                    padding: 0;
+                                    height: 21px;
+                                    line-height: 21px;
+                                    float: left;
+                                    color: #333333;
+                                }
+                            }
+
+                            dd {
+                                float: left;
+                                height: 21px;
+                                line-height: 25px;
+
+                                a {
+                                    margin-left: 12px;
+                                    height: 100%;
+                                    float: left;
+                                    font-size: 12px;
+                                    color: #333333;
+
+                                    span {
+                                        color: #ff4065;
+                                        font-weight: bolder;
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .active_last {
+        position: absolute;
+        top: 120px;
+        left: 0;
+        display: block;
+        width: 25px;
+        height: 40px;
+        font-size: 30px;
+        color: #ffffff;
+        background: #cccccc;
+        cursor: pointer;
+        border-radius: 5px;
+        line-height: 40px;
+        z-index: 5;
+    }
+
+    .active_next {
+        position: absolute;
+        top: 120px;
+        right: 0;
+        display: block;
+        width: 25px;
+        height: 40px;
+        font-size: 30px;
+        color: #ffffff;
+        background: #cccccc;
+        cursor: pointer;
+        border-radius: 5px;
+        line-height: 40px;
+        z-index: 999;
+    }
+
+    .active_wrap {
+        width: 1690px;
+        margin: 0 auto;
+        height: 294px;
+        margin-bottom: 10px;
+
+        .active_wrap_left {
+            width: 230px;
+            height: 100%;
+            background: url(../images/today.jpg) no-repeat;
+            background-size: cover;
+            position: relative;
+            float: left;
+
+            .active_data {
+                position: absolute;
+                bottom: 30px;
+                left: 35px;
+
+                .active_data_box {
+                    display: inline-block;
+                    width: 40px;
+                    height: 40px;
+                    background: #000000;
+                    line-height: 40px;
+                    color: #ffffff;
+                    font-size: 30px;
+                    text-align: center;
+                    border-radius: 5px;
+                }
+
+                .active_data_point {
+                    font-size: 40px;
+                }
+            }
+        }
+
+        .active_wrap_right {
+            height: 100%;
+            width: 1460px;
+            float: left;
+            position: relative;
+            z-index: 2;
+
+            figure {
+                width: 208px;
+                height: 100%;
+                padding: 15px 15px 20px;
+                box-sizing: border-box;
+                background: #ffffff;
+                float: left;
+                cursor: pointer;
+                position: relative;
+
+                a {
+                    img {
+                        width: 100%;
+                    }
+
+                    figcaption {
+                        p {
+                            font-size: 14px;
+                            color: #333333;
+                        }
+
+                        b {
+                            font-size: 14px;
+                            color: #ff4065;
+                            font-weight: bolder;
+                        }
+
+                        span {
+                            position: absolute;
+                            right: 15px;
+                            bottom: 0;
+                            font-size: 16px;
+                            color: #cccccc;
+                            text-decoration: line-through;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .ad_wrap {
+        width: 1690px;
+        margin: 0 auto;
+        height: 150px;
+        margin-bottom: 70px;
+
+        img {
+            height: 100%;
+            margin-right: 10px;
+            float: left;
+            cursor: pointer;
+        }
+    }
+
+    .case_wrap {
+        width: 1690px;
+        margin: 0 auto;
+        min-height: 671px;
+        margin-bottom: 70px;
+
+        .case_wrap_top {
+            width: 100%;
+            height: 32px;
+            margin-bottom: 10px;
+
+            h2 {
+                font-size: 18px;
+                font-weight: bolder;
+                text-indent: 1rem;
+                border-left: 10px solid pink;
+                line-height: 32px;
+                float: left;
+                margin-right: 20px;
+            }
+
+            ul {
+                float: left;
+
+                li {
+                    float: left;
+                    padding: 0 20px;
+                    margin-top: 5px;
+                    border-left: 1px solid #000000;
+
+                    &:first-child {
+                        border: none;
+                    }
+
+                    a {
+                        display: block;
+                        color: #000000;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        .case_wrap_bottom {
+            width: 1690px;
+            min-height: 624px;
+
+            .case_WBleft {
+                width: 230px;
+                height: 624px;
+                float: left;
+                padding-right: 10px;
+
+                img {
+                    width: 100%;
+                    cursor: pointer;
+
+                }
+            }
+
+            .case_WBright {
+                float: left;
+                width: 1450px;
+                height: 624px;
+            
+                .case_WBrightTOP {
+                    position: relative;
+                    width: 1450px;
+                    height: 408px;
+                    margin-bottom: 10px;
+
+                    figure {
+                        width: 230px;
+                        height: 408px;
+                        margin-right: 11px;
+                        float: left;
+                        background: #ffffff;
+
+                        img {
+                            width: 100%;
+                            border-radius: 5px;
+                        }
+
+                        figcaption {
+                            p {
+                                font-size: 16px;
+                                overflow: hidden;
+                                color: #333333;
+                                margin: 15px 5px;
+                            }
+
+                            b {
+                                font-size: 22px;
+                                color: #ff4065;
+                            }
+
+                        }
+                    }
+                }
+
+                .case_WBrightBTM {
+                    width: 100%;
+                    height: 206px;
+
+                    img {
+                        height: 100%;
+                        float: left;
+                        margin-right: 10px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
