@@ -9,15 +9,22 @@ task('del',async ()=>{
 
 // 处理html
 task('html',async ()=>{
-    src('./src/html/*.html')
-    .pipe(dest('./dist/html'))
+    src('./src/*.html')
+    .pipe(dest('./dist'))
     .pipe(load.connect.reload())//刷新
 });
 
 // 处理img
 task('images',async ()=>{
-    src('./src/images/*.*')
+    src('./src/images/**/*.*')
     .pipe(dest('./dist/images'))
+    .pipe(load.connect.reload())//刷新
+});
+
+// 处理字体文件
+task('iconfont',async ()=>{
+    src('./src/iconfont/*.*')
+    .pipe(dest('./dist/iconfont'))
     .pipe(load.connect.reload())//刷新
 });
 
@@ -47,11 +54,12 @@ task('connect',async ()=>{
 })
 
 task('watch',async ()=>{
-    watch('./src/html/*.html',series('html'));
+    watch('./src/*.html',series('html'));
     watch('./src/images/*.*',series('images'));
+    watch('./src/iconfont/*.*',series('iconfont'));
     watch('./src/script/*.js',series('script'));
     watch('./src/sass/*.scss',series('sass'));
 })
 
 // 构建并启动项目，开发版本
-task('dev',series('del','html','images','script','sass','connect','watch'));
+task('dev',series('del','html','images','iconfont','script','sass','connect','watch'));

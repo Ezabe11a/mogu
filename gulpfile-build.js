@@ -12,8 +12,14 @@ async function delDist(){
 
 // 处理图片
 async function images(){
-    src('./src/images/*.*')
+    src('./src/images/**/*.*')
     .pipe(dest('./dist/images'))
+}
+
+// 处理字体文件
+async function iconfont(){
+    src('./src/iconfont/*.*')
+    .pipe(dest('./dist/iconfont'))
 }
 
 // 处理js(ESx -> ES5，压缩)
@@ -43,12 +49,12 @@ async function html(){
     return new Promise((resovle,reject)=>{
         setTimeout(()=>{//延后执行这个任务
             resovle();
-            src(['./rev/**/*.json','./src/html/*.html'])
+            src(['./rev/**/*.json','./src/*.html'])
             .pipe(load.revCollector({
                 replaceReved: true //根据之前生成的json配置，替换原来路径为哈希路径
             }))
             .pipe(load.minifyHtml())//压缩
-            .pipe(dest('./dist/html'))
+            .pipe(dest('./dist'))
         },2000);
     })
 }
@@ -57,6 +63,7 @@ async function html(){
 task('build',async ()=>{
     await delDist();
     await images();
+    await iconfont();
     await script();
     await sass();
     await html();

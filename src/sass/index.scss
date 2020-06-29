@@ -1,0 +1,187 @@
+/* 首页样式 */
+#main {
+    min-height: 2200px;
+    width: 100%;
+
+    #goods {
+        width: 100%;
+
+        .goods_con {
+            width: 1690px;
+            margin: 0 auto;
+            min-height: 2000px;
+            padding-top: 30px;
+
+
+            .goodscon_left {
+                width: 488px;
+                float: left;
+                column-count: 2;
+                column-gap: 0;
+
+                figure {
+                    width: 220px;
+                    margin: 0px 12px 24px;
+                    border-radius: 15px;
+                    cursor: pointer;
+                    &:hover {
+                        box-shadow: 0 0 18px 0 rgba(0, 0, 0, .2);
+                        translate: 50px 0px;
+                        cursor: pointer;
+                    }
+                    img {
+                        width: 100%;
+                        border-radius: 15px;
+                        display: block;
+                    }
+                }
+            }
+
+            .goodscon_center {
+                width: 690px;
+                float: left;
+
+                .center_con {
+                    column-count: 1;
+                    column-gap: 0;
+
+                    .banner {
+                        width: 690px;
+
+                        img {
+                            width: 100%;
+                            border-radius: 15px;
+                            margin: 0px 12px 24px;
+                        }
+                    }
+
+                    .goods_nav {
+                        background-image: url(../images/goodsBg.gif);
+                        width: 690px;
+                        height: 400px;
+                        margin: 0px 12px 24px;
+                        background-size: cover;
+                        box-shadow: 0 0 18px 0 rgba(0, 0, 0, .05);
+                        border-radius: 15px;
+                        font-size: 14px;
+
+                        div {
+                            a {
+                                display: block;
+                                width: 100%;
+                                height: 50px;
+                            }
+                        }
+
+                        .goods_list {
+                            .goodslist_top {
+                                display: flex;
+                                flex-direction: row;
+                                margin-bottom: 20px;
+
+                                figure {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    width: 17%;
+                                    text-align: center;
+
+                                    img {
+                                        width: 80%;
+                                    }
+                                }
+                            }
+
+                            .goodslist_bottom {
+                                display: flex;
+                                flex-direction: row;
+                                margin-bottom: 20px;
+
+                                figure {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    width: 17%;
+                                    text-align: center;
+
+                                    img {
+                                        width: 80%;
+                                    }
+                                }
+                            }
+                        }
+
+                        .goods_button {
+                            .gds_btnlist {
+                                display: flex;
+                                text-align: center;
+                                justify-content: space-around;
+                                margin-bottom: 20px;
+
+                                div {
+                                    width: 16%;
+                                    height: 40px;
+                                    line-height: 40px;
+                                    background-color: #f5f5f5;
+                                    border-radius: 25px;
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .goodscon_center_case {
+                    width: 690px;
+                    float: left;
+                    column-count: 3;
+                    column-gap: 0;
+
+                    figure {
+                        width: 210px;
+                        margin-left: 12px;
+                        border-radius: 15px;
+
+                        &:hover {
+                            box-shadow: 0 0 18px 0 rgba(0, 0, 0, .2);
+                            translate: 50px 0px;
+                            cursor: pointer;
+
+                        }
+
+                        img {
+                            width: 100%;
+                            display: block;
+                            margin-bottom: 24px;
+                            border-radius: 15px;
+                        }
+                    }
+                }
+            }
+
+            .goodscon_right {
+                width: 488px;
+                float: right;
+                column-count: 2;
+                column-gap: 0;
+
+                figure {
+                    width: 220px;
+                    margin: 0px 12px 24px;
+                    border-radius: 15px;
+                    cursor: pointer;
+                    &:hover {
+                        box-shadow: 0 0 18px 0 rgba(0, 0, 0, .2);
+                        translate: 50px 0px;
+                        cursor: pointer;
+                    }
+                    img {
+                        width: 100%;
+                        border-radius: 15px;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
