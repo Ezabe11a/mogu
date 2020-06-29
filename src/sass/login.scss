@@ -106,7 +106,13 @@ html {
                         }
 
                         #messageBox {
-                            font-size: 12px;
+                            font-size: 16px;
+                            position: absolute;
+                            color: #f46;
+                            font-weight: bolder;
+                            bottom: 140px;
+                            left: 120px;
+                            text-align: center;
                         }
                     }
 
