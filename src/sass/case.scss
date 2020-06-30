@@ -84,7 +84,8 @@
                 height: 40px;
                 float: left;
                 margin-left: 45px;
-                #loginA{
+
+                #loginA {
                     display: block;
                     width: 100px;
                 }
@@ -100,7 +101,6 @@
     .shop_ad {
         width: 100%;
         height: 150px;
-        background-image: url(../images/shoppic.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -110,7 +110,8 @@
             margin: 0 auto;
 
             img {
-                width: 100%;
+                height: 100%;
+                margin-left: -350px;
             }
         }
     }
@@ -155,7 +156,11 @@
             width: 400px;
             height: 600px;
             float: left;
-
+            .case_pic{
+                width: 400px;
+                height: 520px;
+                overflow: hidden;
+            }
             img {
                 width: 100%;
             }
@@ -456,9 +461,10 @@
             min-height: 800px;
             float: left;
             padding-bottom: 50px;
+
             .case_wrap_lefttop {
                 width: 200px;
-                height: 800px;
+                min-height: 800px;
 
                 .wrap_header {
                     position: sticky;
@@ -511,7 +517,7 @@
             margin-left: 220px;
             margin-bottom: 50px;
             width: 975px;
-            min-height: 2600px;
+            min-height: 2000px;
             background: #fdfdfd;
             border-left: 1px solid #cccccc;
             border-right: 1px solid #cccccc;
@@ -601,21 +607,21 @@
                 }
 
                 .show_box {
-                    position: absolute;
                     width: 925px;
-                    height: 2000px;
-                    padding: 0 20px;
+                    margin-top: 340px;
+                    margin-bottom: 50px;
+                    padding: 0 20px 50px;
                     top: 400px;
+                    overflow: hidden;
 
                     img {
                         position: relative;
                         display: block;
                         width: 100%;
-                        margin-bottom: 30px;
+                        margin-bottom: 50px;
                     }
                 }
             }
         }
     }
 }
-
