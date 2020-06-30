@@ -25,7 +25,7 @@ $(function () {
                         location.href = './index.html';
                     } else {
                         $('#messageBox').text('用户名或密码错误');
-
+                        return;
                     }
                 }
             }

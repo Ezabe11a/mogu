@@ -53,6 +53,7 @@
                     padding: 2px 5px;
                     margin-right: 5px;
                     cursor: pointer;
+                    background: #ffffff;
                 }
             }
 
@@ -84,10 +85,10 @@
                 height: 40px;
                 float: left;
                 margin-left: 45px;
-
                 #loginA {
                     display: block;
                     width: 100px;
+                    text-indent: -.5rem;
                 }
             }
         }
@@ -104,7 +105,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-
+        overflow: hidden;
         .shop_ad_con {
             width: 1200px;
             margin: 0 auto;
@@ -609,8 +610,8 @@
                 .show_box {
                     width: 925px;
                     margin-top: 340px;
-                    margin-bottom: 50px;
-                    padding: 0 20px 50px;
+                    margin-bottom: 30px;
+                    padding: 0 16px 50px;
                     top: 400px;
                     overflow: hidden;
 
@@ -618,7 +619,7 @@
                         position: relative;
                         display: block;
                         width: 100%;
-                        margin-bottom: 50px;
+                        margin-bottom: 30px;
                     }
                 }
             }

@@ -74,11 +74,82 @@ body {
 
         .item {
             width: 55px;
+            height: 100%;
             line-height: 110px;
             float: left;
             margin-left: 30px;
             font-size: 14px;
             cursor: pointer;
+            &:hover .item_box{
+                display: block;
+            }
+            .item_box {
+                position: absolute;
+                left: 100px;
+                top: 80px;
+                width: 1100px;
+                height: 240px;
+                border: 1px solid #ddd;
+                background-color: #fff;
+                padding-top: 35px;
+                display: none;
+
+                ul:first-of-type {
+                    float: left;
+                    width: 30%;
+                    height: 200px;
+                    border-right: 1px solid #ddd;
+                    padding-left: 20px;
+                    span {
+                        font-size: 14px;
+                        font-weight: bolder;
+                        position: absolute;
+                        top: -15px;
+                        left: 30px;
+                    }
+
+                    li {
+                        float: left;
+                        width: 16%;
+                        height: 15%;
+                        text-align: center;
+
+                        a {
+                            font-size: 12px;
+                            color: #333333;
+                        }
+                    }
+                }
+
+                ul:nth-of-type(2) {
+                    width: 25%;
+                    float: left;
+                    height: 200px;
+                    border-right: 1px solid #ddd;
+                    padding-left: 10px;
+
+                    span{
+                        font-size: 14px;
+                        font-weight: bolder;
+                        position: absolute;
+                        top: -15px;
+                        left: 365px;
+                        
+                    }
+                    li{
+                        float: left;
+                        padding: 0 5px;
+                        height: 15%;
+                        text-align: center;
+
+                        a{
+                            font-size: 12px;
+                            color: #333333;
+
+                        }
+                    }
+                }
+            }
 
             span {
                 color: #333333;
@@ -160,7 +231,7 @@ body {
                 text-align: center;
 
                 a {
-                    
+
                     font-size: 14px;
                     color: #333333;
                     line-height: 20px;
@@ -202,7 +273,8 @@ body {
         color: #999;
         font-size: 12px;
     }
-    span{
+
+    span {
         font-size: 30px;
     }
 }

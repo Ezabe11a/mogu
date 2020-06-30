@@ -9,6 +9,7 @@
             "relPrice": "￥149",
             "sell": "457",
             "base": "855",
+            "color":"白色",
             "pic1": "./images/caseshow.jpg",
             "pic2": "./images/caseshow2.jpg"
         },
@@ -22,6 +23,7 @@
             "relPrice": "￥95",
             "sell": "263",
             "base": "235",
+            "color":"黑色",
             "pic1": "./images/caseshow3.jpg",
             "pic2": "./images/caseshow4.jpg"
 
@@ -36,6 +38,7 @@
             "relPrice": "￥79",
             "sell": "339",
             "base": "481",
+            "color":"白色",
             "pic1": "./images/caseshow5.jpg",
             "pic2": "./images/caseshow6.jpg"
         },
@@ -49,6 +52,7 @@
             "relPrice": "￥289",
             "sell": "1",
             "base": "29",
+            "color":"粉色",
             "pic1": "./images/caseshow7.jpg",
             "pic2": "./images/caseshow8.jpg"
         },
@@ -62,6 +66,7 @@
             "relPrice": "￥209",
             "sell": "169",
             "base": "4854",
+            "color":"驼色",
             "pic1": "./images/caseshow9.jpg",
             "pic2": "./images/caseshow10.jpg"
         },
@@ -75,6 +80,7 @@
             "relPrice": "￥99.7",
             "sell": "42",
             "base": "3966",
+            "color":"白色",
             "pic1": "./images/caseshow11.jpg",
             "pic2": "./images/caseshow12.jpg"
         },
@@ -88,6 +94,7 @@
             "relPrice": "￥89",
             "sell": "290",
             "base": "7727",
+            "color":"红色",
             "pic1": "./images/caseshow13.jpg",
             "pic2": "./images/caseshow12.jpg"
         }

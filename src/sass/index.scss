@@ -53,7 +53,6 @@
 
                     .banner {
                         width: 690px;
-
                         img {
                             width: 100%;
                             border-radius: 15px;
@@ -131,6 +130,10 @@
                                     background-color: #f5f5f5;
                                     border-radius: 25px;
                                     font-size: 14px;
+                                    &:hover{
+                                        background-color: #FF4466;
+                                        color: #fff;
+                                    }
                                 }
                             }
                         }

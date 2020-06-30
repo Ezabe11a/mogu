@@ -82,6 +82,9 @@
                                     float: left;
                                     font-size: 12px;
                                     color: #333333;
+                                    &:hover {
+                                        color: #FF4466;
+                                    }
 
                                     span {
                                         color: #ff4065;
@@ -106,27 +109,29 @@
         height: 40px;
         font-size: 30px;
         color: #ffffff;
-        background: #cccccc;
+        background: #333;
         cursor: pointer;
         border-radius: 5px;
         line-height: 40px;
         z-index: 5;
+        opacity: .5;
     }
 
     .active_next {
         position: absolute;
         top: 120px;
-        right: 0;
+        right: 15px;
         display: block;
         width: 25px;
         height: 40px;
         font-size: 30px;
         color: #ffffff;
-        background: #cccccc;
+        background: #333;
         cursor: pointer;
         border-radius: 5px;
         line-height: 40px;
-        z-index: 999;
+        z-index: 99;
+        opacity: .5;
     }
 
     .active_wrap {
@@ -172,6 +177,14 @@
             float: left;
             position: relative;
             z-index: 2;
+
+            .active_last {
+                margin-left: 15px;
+            }
+
+            .active_next {
+                margin-right: 5px;
+            }
 
             figure {
                 width: 208px;

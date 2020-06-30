@@ -50,8 +50,8 @@ $(function () {
                     var str_show =`
                     <img src="${val.pic1}" alt="">
                     <img src="${val.pic2}" alt="">
-
                     `;
+                    var str_color = val.color;
                 }
                 $("title").text(str_title);
                 $(".shop_case>p").text(str_title);
@@ -64,6 +64,7 @@ $(function () {
                 $(".relPrice").text(str_relPrice);
                 $('.sell').text(str_sell);
                 $('.base>em').text(str_base);
+                $(".color").attr("value",str_color);
                 $(".show_box").append(str_show);
 
             });
@@ -72,4 +73,11 @@ $(function () {
             console.log(error)
         }
     })
+    console.log($('.collshop'));
+    
+    $('.collshop').click(function(){
+        $('.collshop').css('background','#ff4065')
+        $('.collshop').css('color','#fff')
+        $('.collshop').text('已收藏');
+    });
 })

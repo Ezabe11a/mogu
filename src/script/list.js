@@ -15,8 +15,8 @@ $(function () {
                         <img src="${val.showpic}" alt="">
                         <figcaption>
                             <p>${val.title}</p>
-                            <b>￥${val.relPrice}</b>
-                            <span>￥${val.price}</span>
+                            <b>${val.relPrice}</b>
+                            <span>${val.price}</span>
                         </figcaption>
                     </a>
                 </figure>
@@ -27,7 +27,7 @@ $(function () {
                         <img src="${val.showpic}" alt="">
                         <figcaption>
                             <p>${val.title}</p>
-                            <b>￥${val.relPrice}</b>
+                            <b>${val.relPrice}</b>
                         </figcaption>
                         </a>
                 </figure>

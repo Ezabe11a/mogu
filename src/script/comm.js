@@ -4,4 +4,7 @@ if (getCookie('userid')) {
     $('.login a').attr('href','javascript:;');
 }
 
-/* 返回顶部 */
+/* 目录 */
+/* $('.item').click(function () { 
+    $('.item_box').attr('display','block');
+}); */
