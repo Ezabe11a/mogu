@@ -4,7 +4,7 @@ $(function () {
         var pwd = $('#userpass').val();
         $.ajax({
             type: "get",
-            url: "../iconfont/user.json",
+            url: "./iconfont/user.json",
             dataType: "json",
             success: function (result) {
                 loginsystem(result);

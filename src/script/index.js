@@ -2,7 +2,7 @@ $(function () {
     banner();
     $.ajax({
         type: 'get',
-        url: '../iconfont/index.json',
+        url: './iconfont/index.json',
         dataType: 'json',
         success: function (res) {
             var str = "";

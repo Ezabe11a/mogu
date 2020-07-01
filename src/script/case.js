@@ -14,7 +14,7 @@ $(function () {
 
     $.ajax({
         type: 'get',
-        url: '../iconfont/case.json',
+        url: './iconfont/case.json',
         dataType: 'json',
         success: function (res, status) {
             $.each(res.cases, function (index, val) {
