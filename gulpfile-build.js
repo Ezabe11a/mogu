@@ -35,7 +35,7 @@ async function script(){
 
 // 处理sass(编译成css，压缩)
 async function sass(){
-    src('./src/sass/*.scss')
+    src('./src/sass/*.*')
     .pipe(load.sass())//转成css
     .pipe(load.minifyCss())//压缩
     .pipe(load.rev())//给文件名后面添加哈希值

@@ -332,22 +332,26 @@
                     }
 
                 }
-
+                
                 input {
                     position: absolute;
                     padding: 2px 5px;
                     border: 1px solid #cccccc;
                     background: #ffffff;
                     font: 12px/1.6 tahoma, arial, sans-serif;
-
+                    cursor: pointer;
                     &:nth-of-type(1) {
                         top: -5px;
                         left: 50px;
+                        
                     }
 
                     &:nth-of-type(2) {
                         top: 45px;
                         left: 50px;
+                        box-sizing: border-box;
+                        border: 2px solid #ff4065;
+    
                     }
 
                     &:nth-of-type(3) {
@@ -358,10 +362,10 @@
 
                     &:nth-of-type(4) {
                         top: 95px;
-                        left: 80px;
+                        left: 78px;
                         font-weight: bolder;
                     }
-
+                    
                     &:nth-of-type(5) {
                         top: 95px;
                         left: 110px;
@@ -402,12 +406,17 @@
                         left: 65px;
                         width: 30px;
                         text-align: center;
+                        cursor: text;
                     }
 
                     &:nth-of-type(10) {
                         top: 145px;
                         left: 105px;
                     }
+                }
+                .active_btn{
+                    box-sizing: border-box;
+                    border: 2px solid #ff4065;
                 }
             }
         }

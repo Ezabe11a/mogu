@@ -2,7 +2,6 @@
 #main {
     min-height: 2200px;
     width: 100%;
-
     #goods {
         width: 100%;
 
@@ -18,7 +17,7 @@
                 float: left;
                 column-count: 2;
                 column-gap: 0;
-
+                margin-bottom: 100px;
                 figure {
                     width: 220px;
                     margin: 0px 12px 24px;
@@ -142,13 +141,13 @@
 
                 .goodscon_center_case {
                     width: 690px;
-                    float: left;
                     column-count: 3;
-                    column-gap: 0;
+                    column-gap: 18;
+                    margin-bottom: 100px;
 
                     figure {
                         width: 210px;
-                        margin-left: 12px;
+                        margin-left: 15px;
                         border-radius: 15px;
 
                         &:hover {
@@ -159,7 +158,7 @@
                         }
 
                         &:hover img {
-                            opacity: .7;
+                            opacity: .8;
                         }
 
                         img {
@@ -177,7 +176,7 @@
                 float: right;
                 column-count: 2;
                 column-gap: 0;
-
+                margin-bottom: 100px;
                 figure {
                     width: 220px;
                     margin: 0px 12px 24px;

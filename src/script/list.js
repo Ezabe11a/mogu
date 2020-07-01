@@ -5,7 +5,7 @@ $(function () {
         url: "../iconfont/case.json",
         dataType: "json",
         success: function (res) {
-            console.log(res.cases);
+            // console.log(res.cases);
             var str = "";
             var tep = "";
             $.each(res.cases, function (index, val) {
@@ -22,7 +22,7 @@ $(function () {
                 </figure>
                 `;
                 tep += `
-                <figure>
+                <figure class="swiper-slide">
                 <a target='_blank' href='case.html?goodsId=${val.id}'>
                         <img src="${val.showpic}" alt="">
                         <figcaption>
@@ -31,19 +31,20 @@ $(function () {
                         </figcaption>
                         </a>
                 </figure>
-
                 `;
+
+                // console.log(index);
             })
-            $('.active_wrap_right').append(str);
+            $('.active_wrap_rightBox').append(str);
             $('.case_WBrightTOP').append(tep);
-
-
         },
         error: function (error) {
             console.log(error);
         }
     });
     gettime();
+    moveCasepic();
+
 
     /* 0点倒计时 */
     function gettime() {
@@ -61,5 +62,23 @@ $(function () {
             i = "0" + i;
         }
         return i;
+    }
+    /* 商品列表轮播 */
+    function moveCasepic() {
+        var swiper = new Swiper('.swiper-container', {
+            autoplay: {
+                reverseDirection: true,
+              },
+            paginationClickable: true,
+            observer: true,
+            observeParents: true,
+            slidesPerView: 6,
+            loopedSlides :6,
+            spaceBetween: 10,
+            slidesPerGroup: 6,
+            loop: true,
+            loopAdditionalSlides: 3,
+            loopFillGroupWithBlank: true,
+        });
     }
 })

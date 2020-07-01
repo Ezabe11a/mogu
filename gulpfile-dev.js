@@ -38,7 +38,7 @@ task('script',async ()=>{
 
 // 编译sass文件，转成纯css
 task('sass',async ()=>{
-    src('./src/sass/*.scss')
+    src('./src/sass/*.*')
     .pipe(load.sass())// sass编译成css
     .pipe(dest('./dist/css'))
     .pipe(load.connect.reload())//刷新

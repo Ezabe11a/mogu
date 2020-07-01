@@ -47,7 +47,7 @@ $(function () {
                     var str_relPrice = val.relPrice;
                     var str_sell = val.sell;
                     var str_base = val.base;
-                    var str_show =`
+                    var str_show = `
                     <img src="${val.pic1}" alt="">
                     <img src="${val.pic2}" alt="">
                     `;
@@ -58,26 +58,42 @@ $(function () {
                 $(".shop_info>a").text(str_shop);
                 $(".case_wrap_lefttop ul>li>a").text(str_shop);
                 $(".shop_ad_con").append(str_banner);
-                $(".case_left").append(str_Sshowpic);
+                if (index < 7) {
+                    $(".case_left").append(str_Sshowpic);
+                }
                 $(".case_right>h2").text(str_title);
                 $(".price").text(str_price);
                 $(".relPrice").text(str_relPrice);
                 $('.sell').text(str_sell);
                 $('.base>em').text(str_base);
-                $(".color").attr("value",str_color);
+                $(".color").attr("value", str_color);
                 $(".show_box").append(str_show);
-
             });
         },
         error: function (error) {
             console.log(error)
         }
     })
-    console.log($('.collshop'));
-    
-    $('.collshop').click(function(){
-        $('.collshop').css('background','#ff4065')
-        $('.collshop').css('color','#fff')
+    /* 收藏店铺 */
+    $('.collshop').click(function () {
+        $('.collshop').css('background', '#ff4065');
+        $('.collshop').css('color', '#fff');
         $('.collshop').text('已收藏');
+    });
+    /* 尺码选择 */
+    $('.clk_btn').click(function () {
+        $('.clk_btn').removeClass('active_btn');
+        $(this).addClass('active_btn');
+    });
+    /* 数量加减 */
+    $('.count_btn').click(function () {
+        if ($(this).hasClass('add_btn')) {
+            $('.count_text').val(parseInt($('.count_text').val()) + 1);
+        } else if ($(this).hasClass('cut_btn')) {
+            if (parseInt($('.count_text').val()) < 1) {
+                return
+            }
+            $('.count_text').val(parseInt($('.count_text').val()) - 1);
+        }
     });
 })
