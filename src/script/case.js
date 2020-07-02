@@ -52,6 +52,7 @@ $(function () {
                     <img src="${val.pic2}" alt="">
                     `;
                     var str_color = val.color;
+                    var str_id = val.id;
                 }
                 $("title").text(str_title);
                 $(".shop_case>p").text(str_title);
@@ -68,15 +69,66 @@ $(function () {
                 $('.base>em').text(str_base);
                 $(".color").attr("value", str_color);
                 $(".show_box").append(str_show);
+                /* 跳转购物车 */
+                $('.addshopcar').prev().click(function () {
+                    location.href = "./shoppingcar.html"
+                    var num = $('.count_text').val();
+                    if (str_id !== undefined) {
+                        setCookie({
+                            key: 'num',
+                            val: num,
+                            day: 100,
+                            path: '/'
+                        });
+                        setCookie({
+                            key: 'id',
+                            val: str_id,
+                            days: 100,
+                            path: '/'
+                        });
+                    }
+
+                });
+
+                /* 加入购物车 */
+                // console.log(str_id);
+                $('.addshopcar').click(function () {
+                    var num = $('.count_text').val();
+                    if (str_id !== undefined) {
+                        setCookie({
+                            key: 'num',
+                            val: num,
+                            day: 100,
+                            path: '/'
+                        });
+                        setCookie({
+                            key: 'id',
+                            val: str_id,
+                            days: 100,
+                            path: '/'
+                        });
+                    }
+                });
             });
         },
         error: function (error) {
             console.log(error)
         }
     })
+    $('.clk_btn').click(function () {
+        var size = this.value;
+        setCookie({
+            key: 'size',
+            val: size,
+            day: 100,
+            path: '/'
+        });
+    });
+
     /* 收藏店铺 */
     $('.collshop').click(function () {
         $('.collshop').css('background', '#ff4065');
+        $('.collshop').css('borderColor', '#ff4065');
         $('.collshop').css('color', '#fff');
         $('.collshop').text('已收藏');
     });
@@ -96,4 +148,5 @@ $(function () {
             $('.count_text').val(parseInt($('.count_text').val()) - 1);
         }
     });
+
 })

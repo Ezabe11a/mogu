@@ -206,14 +206,13 @@ body {
     .actcase_con {
         width: 1200px;
         margin: 0 auto;
-        height: 2104px;
+        min-height: 3284px;
         padding: 20px 0;
-
         .actcase_left {
             width: 980px;
             padding: 0 0 20px;
             float: left;
-
+            margin-bottom: 20px;
             figure {
                 display: inline-block;
                 width: 436px;
@@ -227,6 +226,7 @@ body {
                     width: 190px;
                     height: 190px;
                     float: left;
+                    overflow: hidden;
                 }
 
                 figcaption {

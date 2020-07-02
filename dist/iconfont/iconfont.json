@@ -1,0 +1,79 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "77191",
+      "name": "二维码",
+      "font_class": "erweima",
+      "unicode": "f010a",
+      "unicode_decimal": 983306
+    },
+    {
+      "icon_id": "692439",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "700805",
+      "name": "顶部",
+      "font_class": "dingbu",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "947481",
+      "name": "商城",
+      "font_class": "shangcheng",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "1309850",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "2121745",
+      "name": "新品",
+      "font_class": "xinpin",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "4662774",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "6857092",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "7549848",
+      "name": "目录",
+      "font_class": "RectangleCopy",
+      "unicode": "e6ae",
+      "unicode_decimal": 59054
+    },
+    {
+      "icon_id": "14288396",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    }
+  ]
+}

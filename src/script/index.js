@@ -6,7 +6,7 @@ $(function () {
         dataType: 'json',
         success: function (res) {
             var str = "";
-            console.log(res.product_center);
+            // console.log(res.product_center);
             var str_c = "";
             $.each(res.product, function (index, val) {
                 str += `

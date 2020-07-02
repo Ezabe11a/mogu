@@ -1,0 +1,1 @@
+"use strict";getCookie("userid")&&($("#loginA").text("亲爱的"+getCookie("userid")),$(".login a").attr("href","javascript:;"));
