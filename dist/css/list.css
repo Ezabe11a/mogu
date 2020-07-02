@@ -1,0 +1,270 @@
+@charset "UTF-8";
+/* 商城样式 */
+#main .top_con {
+  width: 100%;
+  border-bottom: 3px solid #ff4065; }
+  #main .top_con .top_wrap {
+    width: 1690px;
+    margin: 0 auto;
+    height: 40px; }
+    #main .top_con .top_wrap .top_wrap_left {
+      width: 305px;
+      height: 40px;
+      background: #ff4065;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px; }
+      #main .top_con .top_wrap .top_wrap_left a {
+        display: block;
+        width: 305px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 18px; }
+
+#main .banner_con {
+  width: 100%;
+  height: 440px;
+  background: #f1c8d0;
+  margin-bottom: 10px; }
+  #main .banner_con .banner_wrap {
+    width: 1690px;
+    margin: 0 auto; }
+    #main .banner_con .banner_wrap .banner_nav {
+      width: 305px;
+      height: 440px;
+      background-color: rgba(255, 255, 255, 0.8);
+      float: left; }
+      #main .banner_con .banner_wrap .banner_nav ul {
+        width: 100%;
+        min-height: 100px; }
+        #main .banner_con .banner_wrap .banner_nav ul li {
+          width: 100%;
+          height: 30px; }
+          #main .banner_con .banner_wrap .banner_nav ul li dl {
+            margin: 0;
+            padding: 5px 0 5px 18px;
+            vertical-align: top;
+            overflow: hidden;
+            border-left: 2px solid transparent; }
+            #main .banner_con .banner_wrap .banner_nav ul li dl dt a {
+              margin: 0;
+              padding: 0;
+              height: 21px;
+              line-height: 21px;
+              float: left;
+              color: #333333; }
+            #main .banner_con .banner_wrap .banner_nav ul li dl dd {
+              float: left;
+              height: 21px;
+              line-height: 25px; }
+              #main .banner_con .banner_wrap .banner_nav ul li dl dd a {
+                margin-left: 12px;
+                height: 100%;
+                float: left;
+                font-size: 12px;
+                color: #333333; }
+                #main .banner_con .banner_wrap .banner_nav ul li dl dd a:hover {
+                  color: #FF4466; }
+                #main .banner_con .banner_wrap .banner_nav ul li dl dd a span {
+                  color: #ff4065;
+                  font-weight: bolder;
+                  font-size: 14px; }
+
+#main .active_last {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  display: block;
+  width: 25px;
+  height: 40px;
+  font-size: 30px;
+  color: #ffffff;
+  background: #333;
+  cursor: pointer;
+  border-radius: 5px;
+  line-height: 40px;
+  z-index: 5;
+  opacity: .5; }
+
+#main .active_next {
+  position: absolute;
+  top: 120px;
+  right: 15px;
+  display: block;
+  width: 25px;
+  height: 40px;
+  font-size: 30px;
+  color: #ffffff;
+  background: #333;
+  cursor: pointer;
+  border-radius: 5px;
+  line-height: 40px;
+  z-index: 99;
+  opacity: .5; }
+
+#main .active_wrap {
+  width: 1690px;
+  margin: 0 auto;
+  height: 294px;
+  margin-bottom: 10px; }
+  #main .active_wrap .active_wrap_left {
+    width: 230px;
+    height: 100%;
+    background: url(../images/today.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    float: left; }
+    #main .active_wrap .active_wrap_left .active_data {
+      position: absolute;
+      bottom: 30px;
+      left: 35px; }
+      #main .active_wrap .active_wrap_left .active_data .active_data_box {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: #000000;
+        line-height: 40px;
+        color: #ffffff;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 5px; }
+      #main .active_wrap .active_wrap_left .active_data .active_data_point {
+        font-size: 40px; }
+  #main .active_wrap .active_wrap_right {
+    height: 100%;
+    width: 1460px;
+    float: left;
+    position: relative;
+    z-index: 2;
+    overflow: hidden; }
+    #main .active_wrap .active_wrap_right .active_last {
+      margin-left: 15px; }
+    #main .active_wrap .active_wrap_right .active_next {
+      margin-right: 5px; }
+    #main .active_wrap .active_wrap_right figure {
+      width: 208px;
+      height: 100%;
+      padding: 10px 15px 20px;
+      box-sizing: border-box;
+      background: #ffffff;
+      float: left;
+      cursor: pointer;
+      position: relative; }
+      #main .active_wrap .active_wrap_right figure a img {
+        display: block;
+        width: 178px;
+        height: 235px;
+        overflow: hidden; }
+      #main .active_wrap .active_wrap_right figure a figcaption p {
+        font-size: 14px;
+        color: #333333;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      #main .active_wrap .active_wrap_right figure a figcaption b {
+        font-size: 14px;
+        color: #ff4065;
+        font-weight: bolder; }
+      #main .active_wrap .active_wrap_right figure a figcaption span {
+        position: absolute;
+        right: 15px;
+        bottom: 10px;
+        font-size: 16px;
+        color: #cccccc;
+        text-decoration: line-through; }
+
+#main .ad_wrap {
+  width: 1690px;
+  margin: 0 auto;
+  height: 150px;
+  margin-bottom: 70px; }
+  #main .ad_wrap img {
+    height: 100%;
+    margin-right: 10px;
+    float: left;
+    cursor: pointer; }
+
+#main .case_wrap {
+  width: 1690px;
+  margin: 0 auto;
+  min-height: 671px;
+  margin-bottom: 70px; }
+  #main .case_wrap .case_wrap_top {
+    width: 100%;
+    height: 32px;
+    margin-bottom: 10px; }
+    #main .case_wrap .case_wrap_top h2 {
+      font-size: 18px;
+      font-weight: bolder;
+      text-indent: 1rem;
+      border-left: 10px solid pink;
+      line-height: 32px;
+      float: left;
+      margin-right: 20px; }
+    #main .case_wrap .case_wrap_top ul {
+      float: left; }
+      #main .case_wrap .case_wrap_top ul li {
+        float: left;
+        padding: 0 20px;
+        margin-top: 5px;
+        border-left: 1px solid #000000; }
+        #main .case_wrap .case_wrap_top ul li:first-child {
+          border: none; }
+        #main .case_wrap .case_wrap_top ul li a {
+          display: block;
+          color: #000000;
+          font-size: 14px; }
+  #main .case_wrap .case_wrap_bottom {
+    width: 1690px;
+    min-height: 624px; }
+    #main .case_wrap .case_wrap_bottom .case_WBleft {
+      width: 230px;
+      height: 624px;
+      float: left;
+      padding-right: 10px; }
+      #main .case_wrap .case_wrap_bottom .case_WBleft img {
+        width: 100%;
+        cursor: pointer; }
+    #main .case_wrap .case_wrap_bottom .case_WBright {
+      float: left;
+      width: 1440px;
+      height: 624px;
+      overflow: hidden;
+      position: relative; }
+      #main .case_wrap .case_wrap_bottom .case_WBright .case_WBrightTOP {
+        position: absolute;
+        width: 2450px;
+        height: 408px;
+        margin-bottom: 10px; }
+        #main .case_wrap .case_wrap_bottom .case_WBright .case_WBrightTOP figure {
+          width: 230px;
+          height: 408px;
+          margin-right: 11px;
+          float: left;
+          background: #ffffff; }
+          #main .case_wrap .case_wrap_bottom .case_WBright .case_WBrightTOP figure img {
+            width: 100%;
+            height: 320px;
+            overflow: hidden;
+            border-radius: 5px; }
+          #main .case_wrap .case_wrap_bottom .case_WBright .case_WBrightTOP figure figcaption p {
+            font-size: 16px;
+            overflow: hidden;
+            color: #333333;
+            margin: 15px 5px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap; }
+          #main .case_wrap .case_wrap_bottom .case_WBright .case_WBrightTOP figure figcaption b {
+            font-size: 22px;
+            color: #ff4065; }
+      #main .case_wrap .case_wrap_bottom .case_WBright .case_WBrightBTM {
+        width: 100%;
+        height: 206px;
+        margin-top: 420px; }
+        #main .case_wrap .case_wrap_bottom .case_WBright .case_WBrightBTM img {
+          height: 100%;
+          float: left;
+          margin-right: 10px;
+          cursor: pointer; }

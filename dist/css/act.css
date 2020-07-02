@@ -1,0 +1,281 @@
+@charset "UTF-8";
+/* 活动页面样式 */
+#nav .nav_con {
+  width: 1200px;
+  margin: 0 auto; }
+
+body #select {
+  position: sticky;
+  top: -1px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e6e6e6;
+  box-shadow: none; }
+  body #select .select_con {
+    width: 1200px;
+    margin: 0 auto; }
+    body #select .select_con .nav_box {
+      width: 70%;
+      margin-left: 120px;
+      float: left;
+      padding-top: 30px; }
+      body #select .select_con .nav_box form input:nth-of-type(1) {
+        width: 450px;
+        height: 45px;
+        background: #f7f7f7;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border: 1px solid #f7f7f7;
+        text-indent: 1rem;
+        cursor: text; }
+      body #select .select_con .nav_box .login {
+        width: 64px;
+        height: 40px;
+        float: left;
+        margin-left: 45px; }
+        body #select .select_con .nav_box .login #loginA {
+          display: block;
+          width: 100px;
+          text-indent: -.5rem; }
+
+#main .header {
+  width: 100%;
+  background: #ff4466;
+  height: 47px;
+  margin-bottom: 20px; }
+  #main .header .header_con {
+    width: 1200px;
+    margin: 0 auto; }
+    #main .header .header_con .header_left h2 {
+      display: block;
+      box-sizing: content-box;
+      height: 36px;
+      width: 60px;
+      overflow: hidden;
+      cursor: pointer;
+      padding-top: 5px;
+      float: left; }
+      #main .header .header_con .header_left h2 img {
+        width: 100%; }
+    #main .header .header_con .header_left .active {
+      border-bottom: 3px solid #ffffff; }
+    #main .header .header_con .header_left ul {
+      height: 100%;
+      padding: 0 20px;
+      float: left;
+      margin-left: 20px; }
+      #main .header .header_con .header_left ul li {
+        float: left;
+        margin: 10px 30px 0;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 2;
+        padding: 0 3px; }
+        #main .header .header_con .header_left ul li a {
+          color: #fff;
+          padding: 2px 3px; }
+          #main .header .header_con .header_left ul li a:hover {
+            border-bottom: 3px solid #ffffff; }
+    #main .header .header_con .header_right {
+      float: right;
+      height: 47px;
+      padding: 10px 10px; }
+      #main .header .header_con .header_right span {
+        line-height: 28px;
+        color: #fff;
+        font-size: 14px;
+        margin: 0 10px 0 0px; }
+      #main .header .header_con .header_right b {
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: #dadada;
+        vertical-align: middle;
+        color: #ff4466;
+        line-height: 28px;
+        text-align: center; }
+
+#main .banner_con {
+  width: 1200px;
+  margin: 0 auto;
+  min-height: 400px;
+  margin-bottom: 30px; }
+  #main .banner_con .banner_pic {
+    width: 960px;
+    height: 400px;
+    float: left; }
+  #main .banner_con .banner_ad {
+    float: left;
+    width: 215px;
+    height: 378px;
+    margin-left: 23px;
+    border: 1px #cccccc solid;
+    padding: 13px 0; }
+    #main .banner_con .banner_ad figure {
+      margin: 0 12px 13px; }
+
+#main .data_con {
+  height: 55px;
+  background: #323232;
+  width: 1200px;
+  margin: 0 auto; }
+  #main .data_con .data_box {
+    width: 133px;
+    height: 50px;
+    float: left;
+    padding-top: 5px;
+    cursor: pointer; }
+    #main .data_con .data_box p {
+      font-size: 17px;
+      color: #ffffff;
+      text-align: center; }
+      #main .data_con .data_box p:nth-child(2) {
+        font-size: 14px;
+        padding-top: 4px;
+        font-weight: 700; }
+  #main .data_con .active {
+    background: #fdcb00; }
+    #main .data_con .active p {
+      color: #333333; }
+
+#main .actcase_con {
+  width: 1200px;
+  margin: 0 auto;
+  min-height: 3284px;
+  padding: 20px 0; }
+  #main .actcase_con .actcase_left {
+    width: 980px;
+    padding: 0 0 20px;
+    float: left;
+    margin-bottom: 20px; }
+    #main .actcase_con .actcase_left figure {
+      display: inline-block;
+      width: 436px;
+      height: 184px;
+      margin: 0 19px 20px 0;
+      padding: 15px;
+      border: 1px solid #cccccc; }
+      #main .actcase_con .actcase_left figure img {
+        display: block;
+        width: 190px;
+        height: 190px;
+        float: left;
+        overflow: hidden; }
+      #main .actcase_con .actcase_left figure figcaption {
+        position: relative; }
+        #main .actcase_con .actcase_left figure figcaption h3 {
+          display: block;
+          color: #333;
+          font-size: 18px;
+          height: 18px;
+          line-height: 1.2;
+          padding: 0 0 15px 15px;
+          margin-bottom: 15px;
+          border-bottom: 1px dotted #ccc;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden; }
+        #main .actcase_con .actcase_left figure figcaption p {
+          position: absolute;
+          color: silver;
+          line-height: 32px;
+          font-size: 14px; }
+          #main .actcase_con .actcase_left figure figcaption p:nth-of-type(1) {
+            top: 54px;
+            left: 200px;
+            color: #333333; }
+          #main .actcase_con .actcase_left figure figcaption p:nth-of-type(2) {
+            top: 54px;
+            left: 310px;
+            text-decoration: line-through; }
+          #main .actcase_con .actcase_left figure figcaption p:nth-of-type(3) {
+            top: 104px;
+            left: 200px; }
+          #main .actcase_con .actcase_left figure figcaption p:nth-of-type(4) {
+            top: 154px;
+            left: 320px; }
+        #main .actcase_con .actcase_left figure figcaption b {
+          position: absolute;
+          font-size: 25px;
+          font-weight: 500;
+          color: #fe4566;
+          margin: 0 5px;
+          top: 50px;
+          left: 240px; }
+        #main .actcase_con .actcase_left figure figcaption a {
+          position: absolute;
+          display: block;
+          border: 1px solid #ff4163;
+          width: 110px;
+          height: 32px;
+          font-size: 17px;
+          line-height: 30px;
+          border-radius: 3px;
+          text-align: center;
+          display: inline-block;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          color: #fff;
+          background: #fe4566;
+          top: 153px;
+          left: 200px; }
+    #main .actcase_con .actcase_left .actcase_btn {
+      width: 400px;
+      padding: 20px;
+      margin: 0 auto; }
+      #main .actcase_con .actcase_left .actcase_btn input {
+        display: inline-block;
+        background: #fdcb00;
+        border: 1px solid #fdcb00;
+        height: 40px;
+        line-height: 40px;
+        width: 130px;
+        font-size: 14px;
+        font-weight: 700;
+        margin: 0 28px;
+        cursor: pointer; }
+  #main .actcase_con .actcase_right {
+    position: sticky;
+    top: 120px;
+    width: 215px;
+    height: 545px;
+    border: 1px solid #ccc;
+    float: left;
+    z-index: 99; }
+    #main .actcase_con .actcase_right > img {
+      margin: 0 auto 20px;
+      width: 162px;
+      height: 162px; }
+    #main .actcase_con .actcase_right > span {
+      display: block;
+      text-align: center;
+      font-size: 12px;
+      color: #666;
+      margin: 20px 0 25px; }
+    #main .actcase_con .actcase_right h2 {
+      display: block;
+      width: 80%;
+      height: 70px;
+      margin: 0 auto 20px;
+      text-align: center;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #eee; }
+      #main .actcase_con .actcase_right h2 img {
+        width: 80%;
+        margin: 0 auto 20px; }
+    #main .actcase_con .actcase_right ul {
+      display: block;
+      width: 80%;
+      margin: 0 auto; }
+      #main .actcase_con .actcase_right ul li {
+        float: left;
+        width: 50%;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 800; }
+        #main .actcase_con .actcase_right ul li a {
+          color: #333;
+          font-size: 14px; }
+
+#footer {
+  position: relative; }

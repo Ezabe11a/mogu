@@ -1,0 +1,443 @@
+@charset "UTF-8";
+/* 商品详情样式 */
+#nav .nav_con {
+  width: 1200px;
+  margin: 0 auto; }
+
+#select {
+  position: static;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e6e6e6;
+  box-shadow: none; }
+  #select .select_con {
+    width: 1200px;
+    margin: 0 auto; }
+    #select .select_con .shop_con {
+      width: 240px;
+      height: 100%;
+      float: left;
+      padding-top: 30px; }
+      #select .select_con .shop_con .shop_pic {
+        width: 60px;
+        height: 80px;
+        border-radius: 50%;
+        float: left; }
+      #select .select_con .shop_con .shop_info {
+        width: 180px;
+        height: 110px; }
+        #select .select_con .shop_con .shop_info a {
+          font-size: 14px;
+          color: #333333; }
+        #select .select_con .shop_con .shop_info span {
+          color: #ff4065;
+          font-size: 12px;
+          font-weight: bolder; }
+        #select .select_con .shop_con .shop_info b {
+          height: 22px;
+          border-radius: 5px;
+          border: 1px solid #cccccc;
+          color: #555555;
+          font-size: 12px;
+          padding: 2px 5px;
+          margin-right: 5px;
+          cursor: pointer;
+          background: #ffffff; }
+    #select .select_con .nav_box {
+      width: 70%;
+      margin-left: 120px;
+      float: left;
+      padding-top: 30px; }
+      #select .select_con .nav_box form input:nth-child(1) {
+        width: 450px;
+        height: 45px;
+        background: #f7f7f7;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border: 1px solid #f7f7f7;
+        text-indent: 1rem;
+        cursor: text; }
+      #select .select_con .nav_box .login {
+        width: 64px;
+        height: 40px;
+        float: left;
+        margin-left: 45px; }
+        #select .select_con .nav_box .login #loginA {
+          display: block;
+          width: 100px;
+          text-indent: -.5rem; }
+
+#main {
+  width: 100%;
+  min-height: 1000px; }
+  #main .shop_ad {
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden; }
+    #main .shop_ad .shop_ad_con {
+      width: 1200px;
+      margin: 0 auto; }
+      #main .shop_ad .shop_ad_con img {
+        height: 100%;
+        margin-left: -355px; }
+  #main .shop_items {
+    width: 100%;
+    background: #3f3f3f;
+    margin-bottom: 50px; }
+    #main .shop_items .shop_items_con {
+      height: 30px;
+      width: 1200px;
+      margin: 0 auto; }
+      #main .shop_items .shop_items_con ul li {
+        float: left;
+        padding-top: 4px; }
+        #main .shop_items .shop_items_con ul li:first-child a {
+          border: none; }
+        #main .shop_items .shop_items_con ul li a {
+          font-size: 14px;
+          color: #ffffff;
+          padding: 0 20px;
+          border-left: 1px solid #5c5c5c; }
+  #main .case_con {
+    margin-bottom: 50px;
+    min-height: 600px;
+    width: 1200px;
+    margin: 0 auto 50px; }
+    #main .case_con .case_left {
+      width: 400px;
+      height: 600px;
+      float: left; }
+      #main .case_con .case_left .case_pic {
+        width: 400px;
+        height: 520px;
+        overflow: hidden; }
+      #main .case_con .case_left img {
+        width: 100%; }
+      #main .case_con .case_left span {
+        display: block;
+        width: 60px;
+        height: 60px;
+        margin: 15px 10px;
+        float: left;
+        overflow: hidden;
+        cursor: pointer; }
+        #main .case_con .case_left span img {
+          width: 120%;
+          background-size: cover; }
+    #main .case_con .case_right {
+      width: 560px;
+      height: 600px;
+      float: left;
+      margin-right: 20px; }
+      #main .case_con .case_right h2 {
+        display: block;
+        width: 528px;
+        height: 56px;
+        font-size: 24px;
+        line-height: 25px;
+        color: #333333;
+        font-weight: bolder;
+        margin: 5px 0 20px 25px; }
+      #main .case_con .case_right .case_pirce {
+        width: 540px;
+        height: 64px;
+        position: relative;
+        background-color: #f6f6f6;
+        margin-left: 20px; }
+        #main .case_con .case_right .case_pirce span {
+          color: #999;
+          position: absolute;
+          font-size: 12px; }
+          #main .case_con .case_right .case_pirce span b {
+            color: #000000; }
+          #main .case_con .case_right .case_pirce span:nth-child(1) {
+            top: 10px;
+            left: 10px; }
+          #main .case_con .case_right .case_pirce span:nth-child(2) {
+            top: 40px;
+            left: 10px; }
+          #main .case_con .case_right .case_pirce span:nth-child(3) {
+            bottom: 5px;
+            right: 110px; }
+          #main .case_con .case_right .case_pirce span:nth-child(4) {
+            bottom: 5px;
+            right: 10px; }
+        #main .case_con .case_right .case_pirce i {
+          position: absolute;
+          font-size: 14px;
+          color: #999;
+          height: 32px;
+          line-height: 32px;
+          left: 45px;
+          top: 1px;
+          text-decoration: line-through; }
+        #main .case_con .case_right .case_pirce strong {
+          position: absolute;
+          color: #ef2f23;
+          font-size: 24px;
+          display: inline-block;
+          vertical-align: middle;
+          font-weight: 700;
+          top: 30px;
+          left: 60px; }
+      #main .case_con .case_right .buy_con {
+        width: 540px;
+        height: 480px;
+        margin: 10px 0 50px 30px;
+        position: relative; }
+        #main .case_con .case_right .buy_con span {
+          color: #999;
+          position: absolute;
+          font-size: 12px; }
+          #main .case_con .case_right .buy_con span:nth-child(1) {
+            top: 0px; }
+          #main .case_con .case_right .buy_con span:nth-child(2) {
+            top: 50px; }
+          #main .case_con .case_right .buy_con span:nth-child(3) {
+            top: 100px; }
+          #main .case_con .case_right .buy_con span:nth-child(4) {
+            top: 150px; }
+          #main .case_con .case_right .buy_con span:nth-child(5) {
+            top: 150px;
+            left: 150px; }
+          #main .case_con .case_right .buy_con span:nth-child(6) {
+            top: 250px;
+            left: 180px; }
+          #main .case_con .case_right .buy_con span:nth-child(7) {
+            top: 300px;
+            left: -10px; }
+          #main .case_con .case_right .buy_con span:nth-child(8) {
+            top: 350px;
+            left: -10px; }
+          #main .case_con .case_right .buy_con span:nth-child(9) {
+            top: 300px;
+            left: 50px;
+            color: #ff4065; }
+          #main .case_con .case_right .buy_con span:nth-child(10) {
+            top: 350px;
+            left: 50px;
+            color: #5aaaec;
+            font-weight: bolder;
+            cursor: pointer; }
+          #main .case_con .case_right .buy_con span:nth-child(11) {
+            top: 350px;
+            left: 70px;
+            color: #67df85;
+            font-weight: bolder;
+            font-size: 14px;
+            cursor: pointer; }
+        #main .case_con .case_right .buy_con input {
+          position: absolute;
+          padding: 2px 5px;
+          border: 1px solid #cccccc;
+          background: #ffffff;
+          font: 12px/1.6 tahoma, arial, sans-serif;
+          cursor: pointer; }
+          #main .case_con .case_right .buy_con input:nth-of-type(1) {
+            top: -5px;
+            left: 50px; }
+          #main .case_con .case_right .buy_con input:nth-of-type(2) {
+            top: 45px;
+            left: 50px;
+            box-sizing: border-box;
+            border: 2px solid #ff4065; }
+          #main .case_con .case_right .buy_con input:nth-of-type(3) {
+            top: 95px;
+            left: 50px;
+            font-weight: bolder; }
+          #main .case_con .case_right .buy_con input:nth-of-type(4) {
+            top: 95px;
+            left: 78px;
+            font-weight: bolder; }
+          #main .case_con .case_right .buy_con input:nth-of-type(5) {
+            top: 95px;
+            left: 110px;
+            font-weight: bolder; }
+          #main .case_con .case_right .buy_con input:nth-of-type(6) {
+            top: 185px;
+            left: 30px;
+            width: 200px;
+            height: 50px;
+            font-weight: bolder;
+            text-align: center;
+            font: 20px Microsoft YaHei;
+            color: #fff;
+            background: #ff4065;
+            border: 1px solid #ff4065; }
+          #main .case_con .case_right .buy_con input:nth-of-type(7) {
+            top: 185px;
+            left: 250px;
+            width: 200px;
+            height: 50px;
+            font-weight: bolder;
+            text-align: center;
+            font: 20px Microsoft YaHei;
+            color: #000000; }
+          #main .case_con .case_right .buy_con input:nth-of-type(8) {
+            top: 145px;
+            left: 50px; }
+          #main .case_con .case_right .buy_con input:nth-of-type(9) {
+            top: 145px;
+            left: 65px;
+            width: 30px;
+            text-align: center;
+            cursor: text; }
+          #main .case_con .case_right .buy_con input:nth-of-type(10) {
+            top: 145px;
+            left: 105px; }
+        #main .case_con .case_right .buy_con .active_btn {
+          box-sizing: border-box;
+          border: 2px solid #ff4065; }
+    #main .case_con .case_right_ad {
+      width: 140px;
+      height: 600px;
+      float: left;
+      border-left: 1px solid #cccccc;
+      position: relative; }
+      #main .case_con .case_right_ad h3 {
+        font-size: 16px;
+        color: #999;
+        text-align: center;
+        width: 6em;
+        margin: 10px auto;
+        background-color: #fff; }
+      #main .case_con .case_right_ad figure {
+        width: 120px;
+        height: 190px;
+        margin: 0px 20px 0px;
+        overflow: hidden; }
+        #main .case_con .case_right_ad figure img {
+          width: 100%; }
+        #main .case_con .case_right_ad figure figcaption span {
+          font-size: 14px;
+          margin-top: 5px;
+          color: #333;
+          display: block;
+          width: 100%;
+          text-align: center; }
+  #main .case_wrap {
+    width: 1200px;
+    margin: 0 auto;
+    min-height: 1900px; }
+    #main .case_wrap .case_wrap_left {
+      width: 200px;
+      min-height: 800px;
+      float: left;
+      padding-bottom: 50px; }
+      #main .case_wrap .case_wrap_left .case_wrap_lefttop {
+        width: 200px;
+        min-height: 800px; }
+        #main .case_wrap .case_wrap_left .case_wrap_lefttop .wrap_header {
+          position: sticky;
+          top: -1px;
+          z-index: 999;
+          width: 100%;
+          height: 58px;
+          background: #f1f1f1;
+          border: 1px solid #cccccc;
+          box-sizing: content-box; }
+          #main .case_wrap .case_wrap_left .case_wrap_lefttop .wrap_header ul li {
+            display: block;
+            float: left;
+            border-right: 1px solid #cccccc;
+            height: 58px;
+            width: 200px;
+            line-height: 58px; }
+            #main .case_wrap .case_wrap_left .case_wrap_lefttop .wrap_header ul li a {
+              display: block;
+              color: #333333;
+              display: block;
+              font-size: 16px;
+              color: #333;
+              text-align: center; }
+            #main .case_wrap .case_wrap_left .case_wrap_lefttop .wrap_header ul li .active {
+              border-top: 3px solid #ef2f23;
+              background-color: #fdfdfd;
+              height: 56px;
+              border-right: none; }
+        #main .case_wrap .case_wrap_left .case_wrap_lefttop .wrap_bottom {
+          width: 200px;
+          height: 119px;
+          background: #fdfdfd; }
+    #main .case_wrap .case_wrap_right {
+      margin-left: 220px;
+      margin-bottom: 50px;
+      width: 975px;
+      min-height: 2000px;
+      background: #fdfdfd;
+      border-left: 1px solid #cccccc;
+      border-right: 1px solid #cccccc;
+      border-bottom: 1px solid #cccccc;
+      position: relative; }
+      #main .case_wrap .case_wrap_right .wrap_header {
+        position: sticky;
+        top: -1px;
+        z-index: 999;
+        width: 100%;
+        height: 58px;
+        background: #f1f1f1;
+        border: 1px solid #cccccc;
+        box-sizing: content-box; }
+        #main .case_wrap .case_wrap_right .wrap_header ul li {
+          display: block;
+          float: left;
+          border-right: 1px solid #cccccc;
+          height: 58px;
+          width: 200px;
+          line-height: 58px; }
+          #main .case_wrap .case_wrap_right .wrap_header ul li a {
+            display: block;
+            color: #333333;
+            display: block;
+            font-size: 16px;
+            color: #333;
+            text-align: center; }
+          #main .case_wrap .case_wrap_right .wrap_header ul li .active {
+            border-top: 3px solid #ef2f23;
+            background-color: #fdfdfd;
+            height: 56px;
+            border-right: none; }
+      #main .case_wrap .case_wrap_right .shop_case h2 {
+        position: absolute;
+        line-height: 18px;
+        padding-bottom: 4px;
+        border-bottom: 1px solid #333;
+        color: #333;
+        font-size: 18px;
+        font-family: Microsoft YaHei\,arial;
+        font-weight: bolder;
+        left: 20px; }
+        #main .case_wrap .case_wrap_right .shop_case h2:nth-of-type(1) {
+          top: 100px; }
+        #main .case_wrap .case_wrap_right .shop_case h2:nth-of-type(2) {
+          top: 230px; }
+        #main .case_wrap .case_wrap_right .shop_case h2:nth-of-type(3) {
+          top: 600px; }
+      #main .case_wrap .case_wrap_right .shop_case p {
+        white-space: pre-wrap;
+        line-height: 18px;
+        margin: -2px 0 18px;
+        color: #666;
+        font-size: 14px;
+        font-family: Microsoft YaHei\,arial;
+        position: absolute;
+        top: 150px;
+        left: 20px; }
+      #main .case_wrap .case_wrap_right .shop_case img {
+        position: absolute;
+        top: 270px;
+        left: 10px; }
+      #main .case_wrap .case_wrap_right .shop_case .show_box {
+        width: 925px;
+        margin-top: 340px;
+        margin-bottom: 30px;
+        padding: 0 16px 50px;
+        top: 400px;
+        overflow: hidden; }
+        #main .case_wrap .case_wrap_right .shop_case .show_box img {
+          position: relative;
+          display: block;
+          width: 100%;
+          margin-bottom: 30px; }

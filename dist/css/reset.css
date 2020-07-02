@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* 确定字符编码 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: normal; }
+
+ul, ol, li {
+  list-style: none; }
+
+b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  display: block;
+  /*清除图片下面的大于3px的间距*/ }
+
+input {
+  outline: none;
+  /* 清除input聚焦时的蓝色边框 */ }
+
+/* 公共的样式 */
+.clear_fix:after {
+  content: ".";
+  clear: both;
+  height: 0;
+  display: block;
+  overflow: hidden;
+  visibility: hidden; }
+
+.clear_fix {
+  zoom: 1; }
+
+.float_left {
+  float: left; }
+
+.float_right {
+  float: right; }
+
+.clear_margin {
+  margin: 0 !important; }
+
+.clear_border {
+  border: 0 !important; }
+
+.clear_bg {
+  background: none !important; }
+
+.fixed_center {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto; }
+
+.hidden_text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
